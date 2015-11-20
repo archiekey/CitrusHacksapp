@@ -63,7 +63,13 @@ public class ParticipantsActivity extends AppCompatActivity {
             m3.setText(name + ": " + LoginActivity.person.messages.get(numMess - 3));
         }
 
+<<<<<<< HEAD
         // This is deleted you can't use it anymore
+=======
+
+
+
+>>>>>>> origin/master
         Button btnNew = (Button) findViewById(R.id.enterMessage);
         View.OnClickListener oclBtnNew = new View.OnClickListener()
         {
